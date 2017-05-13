@@ -1,0 +1,17 @@
+#!/bin/bash
+
+for i in 1 2 3 4 5
+do
+	name="hadoop$i"
+	docker exec -i $name echo "$name:"
+	docker exec -i $name jps
+	docker exec -i $name echo -e ""
+done 
+
+for i in 1 2 3
+do
+        name="zookeeper$i"
+        docker exec -i $name echo "$name:"
+        docker exec -i $name jps
+        docker exec -i $name echo -e ""
+done

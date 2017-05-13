@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopyrightManager" default="" />
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1465793598439" />
+    <option name="name" value="default" />
+    <option name="pathToConfigFileJava" value="E:/Alibaba/开发规范/TripFormatter.xml" />
+    <option name="selectedJavaProfile" value="Trip Convention" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/hdfs-server" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="D:/projects/arm-adm" value="1487747109495" />
+        <entry key="D:/projects/arm-core" value="1487748958298" />
+        <entry key="D:/projects/arw-adm" value="1488444699825" />
+        <entry key="D:/projects/arw-core" value="1488961809753" />
+        <entry key="D:/projects/efas-adm" value="1482305385596" />
+        <entry key="D:/projects/efas-core" value="1481857466208" />
+        <entry key="D:/projects/efs-adm" value="1483415497686" />
+        <entry key="D:/projects/efs-core" value="1486974702621" />
+        <entry key="D:/projects/efs-core-master" value="1489388758967" />
+        <entry key="D:/projects/esp-web" value="1481857413930" />
+        <entry key="D:/projects/ess-proxy" value="1482486040773" />
+        <entry key="D:/新建文件夹/微众资料/projects/efs-adm" value="1480599880000" />
+        <entry key="D:/新建文件夹/微众资料/projects/efs-core" value="1480039268000" />
+      </map>
+    </option>
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JSX" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/hdfs-server/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
+</project>

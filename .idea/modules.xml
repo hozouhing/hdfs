@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/hdfs.iml" filepath="$PROJECT_DIR$/.idea/hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdfs-client/hdfs-client.iml" filepath="$PROJECT_DIR$/hdfs-client/hdfs-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdfs-env/hdfs-env.iml" filepath="$PROJECT_DIR$/hdfs-env/hdfs-env.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdfs-server/hdfs-server.iml" filepath="$PROJECT_DIR$/hdfs-server/hdfs-server.iml" />
+    </modules>
+  </component>
+</project>

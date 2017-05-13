@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#初始化hdfs
+hdfs namenode -format
+
+#拷贝初始化文件到hadoop2
+scp -r /dynamic hadoop2:/dynamic
+
+#初始化zk
+hdfs zkfc -formatZK
+
+#启动hdfs
+start-dfs.sh

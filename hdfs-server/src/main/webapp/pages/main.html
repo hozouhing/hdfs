@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="table-demo">
+    <meta name="author" content="zhuawa">
+    <link rel="icon" href="/assets/icon/code.ico">
+    <title>main</title>
+    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        [v-cloak] {
+            display: none
+        }
+    </style>
+</head>
+<body id="app" v-cloak>
+<div class="container">
+
+</div>
+
+<script src="/assets/jquery/jquery.min.js"></script>
+<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/vue/vue.min.js"></script>
+<script>
+    var demoCtx = new TableCtx({
+        url: '/city/page.do',
+        pageSize: 10,
+        columns: [
+            {title: "ID", field: "id"},
+            {title: "名称", field: "name"},
+            {title: "国家代码", field: "countryCode"},
+            {title: "区域", field: "district"},
+            {title: "人口数量", field: "population"}],
+        actions: [
+            {
+                title: "操作1", iconClz: "glyphicon glyphicon-th",
+                handler: function () {
+                    alert("操作1");
+                }
+            }, {
+                title: "操作2", iconClz: "glyphicon glyphicon-trash",
+                handler: function () {
+                    alert("操作2");
+                }
+            }]
+    });
+
+    window.vue = new Vue({
+        el: "#app",
+        data: {
+            demoCtx: demoCtx
+        }
+    });
+</script>
+</body>
+</html>

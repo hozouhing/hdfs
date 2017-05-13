@@ -1,0 +1,29 @@
+{
+  "name": "hdfs-client",
+  "description": "hdfs-client",
+  "author": "hozouhing@gmail.com",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --port 8086",
+    "build": "rimraf out && cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "element-ui": "^1.0.0",
+    "vodal": "^1.0.3",
+    "vue": "^2.1.6",
+    "vue-pdf": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.13.2",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^9.8.0",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
